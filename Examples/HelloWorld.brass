@@ -1,0 +1,10 @@
+* Brass: Hello world example
+
+PROGRAM DECLARATION
+    NAME EQUAL TO 'Hello world example'
+    AUTHOR EQUAL TO 'geschmit'
+    REQUESTING CON.
+
+PROCEDURE MAIN
+    CALL PRINT 'Hello world!'
+    EXIT 0.

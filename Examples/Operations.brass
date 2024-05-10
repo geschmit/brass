@@ -1,0 +1,18 @@
+* Basic example for performing operations within Brass
+
+PROGRAM DECLARATION
+    NAME EQUAL TO 'Operations example'
+    AUTHOR EQUAL TO 'geschmit'
+    REQUESTING CON.
+
+INTEGER counter
+    EQUAL TO 5.
+
+BOOLEAN yesno
+    EQUAL TO false.
+
+PROCEDURE MAIN.
+    CALL PRINT_FORMAT 'Counter value: %i', counter.  
+    MOVE BOOLEAN true TO yesno.
+
+    EXIT 0.
